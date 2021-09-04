@@ -1,0 +1,128 @@
+{
+   "jobs": {
+      "herbalist": {
+         "composting_bin": {
+            "display_name": "Caixa de Compostagem",
+            "description": "Utilizada para transformar resíduos como comida podre em composto orgânico."
+         },
+         "composting_bin_mulchy": {
+            "display_name": "Caixa de Compostagem Empapada",
+            "description": "Requer palha para produzir composto orgânico novamente."
+         },
+         "recipes": {
+            "herbalist_composting_bin_recipe": {
+               "recipe_name": "Caixa de Compostagem",
+               "description": "Utilizada pelo Herbalista para transformar resíduos como comida podre em composto orgânico.",
+               "flavor": "O forro de palha requer substituição de tanto em tanto"
+            },
+				"herbalist_manure_drying_rack_recipe": {
+               "recipe_name": "Mesa de Secagem de Fezes",
+               "description": "Utilizada pelo herbalista para secar e transformar fezes ou composto em combustível.",
+               "flavor": "É o ciclo da vida!"
+            },
+            "compost_recipe": {
+               "recipe_name": "Naco de Composto",
+               "description": "Esprema alguns pedaços de matéria orgânica para produzir um pedaço maior de composto.",
+               "flavor": ""
+            },
+            "compost_small_recipe": {
+               "recipe_name": "Pedaços de Composto (x3)",
+               "description": "Fragmente um naco de composto orgânico para produzir pedaços menores.",
+               "flavor": ""
+            },
+            "fertilizer_compost_recipe": {
+               "recipe_name": "Fertilizante de Composto",
+               "description": "Utilizável por fazendeiros para aumentar marginalmente a qualidade de seus produtos.",
+               "flavor": "Cada saco pode ser utilizado para fertilizar 33 plantas"
+            },
+            "veggie_mulch_recipe": {
+               "recipe_name": "Naco de Vegetais Empapados",
+               "description": "Misture alguns vegetais para irem direto à caixa de compostagem.",
+               "flavor": "Precisa de algum tempo para compostar mas se torna um naco completo!"
+            }
+         },
+         "manure_drying_rack": {
+            "display_name": "Mesa de Secagem de Fezes",
+            "description": "Utilizada para transformar fezes e composto em coisas mais úteis."
+         }
+      }
+   },
+   "data": {
+      "commands": {
+         "transform": {
+            "composting_bin_renew": {
+               "display_name": "Substituir Forro de Palha",
+               "description": "Ordene o Herbalista a trazer palha seca e limpa para substituir a palha empapada e continuar a compostagem normalmente."
+            }
+         }
+      }
+   },
+   "ui": {
+      "data": {
+         "constants": {
+            "all_compostable_name": "Qualquer Compostável",
+            "all_manure_name": "Apenas Fezes",
+            "rotten_food_name": "Apenas Comida Podre",
+            "all_compost_name": "Qualquer Composto",
+            "all_dryable_manure_name": "Qualquer Composto ou Fezes"
+         }
+      },
+      "game": {
+         "zones_mode": {
+            "stockpile": {
+               "filters": {
+                  "compost": "Compostagem"
+               }
+            }
+         }
+      }
+   },
+   "entities": {
+      "resources": {
+         "manure": {
+            "display_name": "Fezes",
+            "description": "Cheira... engraçado. É compostável."
+         },
+         "manure_small": {
+            "display_name": "Fezes Menores",
+            "description": "Até são fofinhos... Ou não. São compostáveis."
+         },
+         "compost": {
+            "display_name": "Naco de Composto",
+            "description": "Matéria orgânica nutritiva e fértil."
+         },
+         "compost_small": {
+            "display_name": "Pedaços de Composto",
+            "description": "Pequenas e ásperas mas muito nutritivas e férteis."
+         },
+         "manure_tiny": {
+            "display_name": "Pequenos Troncinhos",
+            "description": "Muito pequenos, nem servem para compostagem..."
+         },
+         "veggie_mulch": {
+            "display_name": "Naco de Vegetais Empapados",
+            "description": "Que mistura! Pronto para ser colocado numa caixa de compostagem."
+         },
+			"fuel": {
+            "manure_dry": {
+               "display_name": "Fezes Secas",
+               "description": "Pedaços de fezes duros e quebradiços. Utilizável como combustível fraco."
+            },
+            "compost_small_dry": {
+               "display_name": "Pedaço de Composto Seco",
+               "description": "Matéria orgânica compactada e desidratada. Utilizável como combustível fraco."
+            },
+            "compost_dry": {
+               "display_name": "Naco de Composto Seco",
+               "description": "Bem duro e compacto, cheio de energia! Utilizável como combustível bom."
+            }
+         }
+      },
+      "consumables": {
+         "fertilizer_composting": {
+            "display_name": "Fertilizante de Composto",
+            "description": "Utilizável por fazendeiros para aumentar marginalmente a qualidade de seus produtos."
+         }
+      }
+   }
+}

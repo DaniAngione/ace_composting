@@ -1,0 +1,34 @@
+{
+	"craftable_recipes" : {
+		"workbenches": {
+         "recipes": {
+            "herbalist_composting_bin": {
+               "recipe": "file(herbalist_composting_bin_recipe.json)"
+            },
+				"herbalist_manure_drying_rack": {
+               "recipe": "file(herbalist_manure_drying_rack_recipe.json)"
+            }
+         }
+      },
+		"refinement_ingredients" : {
+			"recipes" : {
+				"compost" : {
+					"recipe" : "file(compost_recipe.json)"
+				},
+				"compost_small" : {
+					"recipe" : "file(compost_small_recipe.json)"
+				},
+				"veggie_mulch" : {
+					"recipe" : "file(veggie_mulch_recipe.json)"
+				}
+			}
+		},
+		"farming_enhancements": {
+         "recipes": {
+				"fertilizer_compost": {
+					"recipe": "file(fertilizer_compost_recipe.json)"
+				}
+			}
+		}
+	}
+}

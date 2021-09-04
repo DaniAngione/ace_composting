@@ -1,0 +1,49 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(manure_dry.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": -0.05 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 1,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(ace_composting:entities.resources.fuel.manure_dry.display_name)",
+         "description": "i18n(ace_composting:entities.resources.fuel.manure_dry.description)",
+         "icon": "file(manure_dry.png)",
+         "is_item": true,
+         "category": "resources",
+         "material_tags": [
+            "stockpile_fuel",
+            "low_fuel",
+            "any_fuel",
+            "common_fuel",
+            "manure_dry",
+            "standard",
+            "resource",
+            "preferred_ingredient"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": -6
+      },
+      "stonehearth_ace:fuel": {
+         "fuel_amount": 3
+      }
+   }
+}

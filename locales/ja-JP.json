@@ -1,0 +1,128 @@
+{
+   "jobs": {
+      "herbalist": {
+         "composting_bin": {
+            "display_name": "コンポスター",
+            "description": "腐った食物や家畜のフンなどのゴミを堆肥に変換します。"
+         },
+         "composting_bin_mulchy": {
+            "display_name": "わらが切れたコンポスター",
+            "description": "再び堆肥を作るためにふきわらを入れましょう。"
+         },
+         "recipes": {
+            "herbalist_composting_bin_recipe": {
+               "recipe_name": "コンポスター",
+               "description": "薬草医がこれを使って腐った食物や家畜のフンなどのゴミを堆肥に変換します。",
+               "flavor": "継続的にふきわらが必要"
+            },
+            "herbalist_manure_drying_rack_recipe": {
+               "recipe_name": "厩肥の乾燥台",
+               "description": "薬草医が家畜のフンや堆肥を乾燥させて燃料として使えるようにします。",
+               "flavor": "これぞ生命の循環！"
+            },
+            "compost_recipe": {
+               "recipe_name": "堆肥の塊",
+               "description": "小さい塊を混ぜ合わせて一つの大きな塊にします。",
+               "flavor": ""
+            },
+            "compost_small_recipe": {
+               "recipe_name": "堆肥の小塊(x3)",
+               "description": "大きい塊を複数の小さい塊に分けます。",
+               "flavor": ""
+            },
+            "fertilizer_compost_recipe": {
+               "recipe_name": "堆肥肥料",
+               "description": "熟練した農夫が使うことで作物の品質がわずかに向上します。",
+               "flavor": "１袋あたり33の作物に施肥できます"
+            },
+            "veggie_mulch_recipe": {
+               "recipe_name": "野菜くずの塊",
+               "description": "コンポスターに入れるために野菜を砕いて塊にします。",
+               "flavor": "野菜くずは腐敗に少し時間がかかるけど、大きい塊のまま堆肥になる！"
+            }
+         },
+         "manure_drying_rack": {
+            "display_name": "厩肥の乾燥台",
+            "description": "家畜のフンや堆肥を乾燥させて使いやすくします。"
+         }
+      }
+   },
+   "data": {
+      "commands": {
+         "transform": {
+            "composting_bin_renew": {
+               "display_name": "ふきわらを取り替える",
+               "description": "効率よく堆肥化するために、薬草医に汚れたわらと乾いた清潔なふきわらを入れ替えてもらいましょう。"
+            }
+         }
+      }
+   },
+   "ui": {
+      "data": {
+         "constants": {
+            "all_compostable_name": "堆肥化可能なものすべて",
+            "all_manure_name": "フンの類",
+            "rotten_food_name": "腐った食物",
+            "all_compost_name": "すべての堆肥",
+            "all_dryable_manure_name": "すべてのフンと堆肥"
+         }
+      },
+      "game": {
+         "zones_mode": {
+            "stockpile": {
+               "filters": {
+                  "compost": "堆肥関連"
+               }
+            }
+         }
+      }
+   },
+   "entities": {
+      "resources": {
+         "manure": {
+            "display_name": "家畜のフン",
+            "description": "かぐわしい……。堆肥にしたり乾燥させることができます。"
+         },
+         "manure_small": {
+            "display_name": "小さいフン",
+            "description": "見た目は可愛いかも……。堆肥にしたり乾燥させることができます。"
+         },
+         "compost": {
+            "display_name": "堆肥の塊",
+            "description": "養分豊富な有機物。"
+         },
+         "compost_small": {
+            "display_name": "堆肥の小塊",
+            "description": "養分豊富な有機物の小さい塊。"
+         },
+         "manure_tiny": {
+            "display_name": "微量のフン",
+            "description": "小さすぎる。使い道はないね……。"
+         },
+         "veggie_mulch": {
+            "display_name": "野菜くずの塊",
+            "description": "うーん、でかい！コンポスターで堆肥にしよう。"
+         },
+         "fuel": {
+            "manure_dry": {
+               "display_name": "乾かしたフン",
+               "description": "カチカチになった家畜のフン。低質燃料として使用できる。"
+            },
+            "compost_small_dry": {
+               "display_name": "乾かした堆肥の小塊",
+               "description": "水分が抜けた有機物の塊。低質燃料として使用できる。"
+            },
+            "compost_dry": {
+               "display_name": "乾かした堆肥の塊",
+               "description": "とても硬いエネルギーの塊！良質燃料として使用できる。"
+            }
+         }
+      },
+      "consumables": {
+         "fertilizer_composting": {
+            "display_name": "堆肥肥料",
+            "description": "熟練した農夫が使うことで作物の品質がわずかに向上します。"
+         }
+      }
+   }
+}

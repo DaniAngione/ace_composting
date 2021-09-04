@@ -1,0 +1,47 @@
+{
+   "stockpile": {
+      "compost": {
+         "display_name": "i18n(ace_composting:ui.game.zones_mode.stockpile.filters.compost)",
+         "ordinal": 3.5,
+         "icon": "/ace_composting/entities/resources/composting_category.png",
+         "categories": {
+            "manure_small": {
+               "ordinal": 1,
+               "display_name": "i18n(ace_composting:entities.resources.manure_small.display_name)",
+               "icon": "/ace_composting/entities/resources/manure/manure_small/manure_small.png",
+               "filter": "compostable manure small"
+            },
+            "compost_small": {
+               "ordinal": 2,
+               "display_name": "i18n(ace_composting:entities.resources.compost_small.display_name)",
+               "icon": "/ace_composting/entities/resources/compost/compost_small/compost_small.png",
+               "filter": "compost small"
+            },
+            "manure": {
+               "ordinal": 3,
+               "display_name": "i18n(ace_composting:entities.resources.manure.display_name)",
+               "icon": "/ace_composting/entities/resources/manure/manure/manure.png",
+               "filter": "compostable manure medium"
+            },
+            "compost": {
+               "ordinal": 4,
+               "display_name": "i18n(ace_composting:entities.resources.compost.display_name)",
+               "icon": "/ace_composting/entities/resources/compost/compost/compost.png",
+               "filter": "compost large"
+            },
+            "veggie_mulch": {
+               "ordinal": 5,
+               "display_name": "i18n(ace_composting:entities.resources.veggie_mulch.display_name)",
+               "icon": "/ace_composting/entities/resources/veggie_mulch/veggie_mulch.png",
+               "filter": "compostable veggie_mulch"
+            },
+            "rotten_food": {
+               "ordinal": 6,
+               "display_name": "i18n(ace_composting:ui.data.constants.rotten_food_name)",
+               "icon": "/ace_composting/entities/food/rotten_food.png",
+               "filter": "compostable rotten_food"
+            }
+         }
+      }
+   }
+}

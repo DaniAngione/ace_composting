@@ -1,0 +1,9 @@
+{
+   "entity_data": {
+      "stonehearth:animal_feed": {
+         "applied_buffs": [
+				"ace_composting:buffs:digestion_major"
+			]
+      }
+   }
+}

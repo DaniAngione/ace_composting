@@ -1,0 +1,46 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(compost_small_dry.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 2,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(ace_composting:entities.resources.fuel.compost_small_dry.display_name)",
+         "description": "i18n(ace_composting:entities.resources.fuel.compost_small_dry.description)",
+         "icon": "file(compost_small_dry.png)",
+         "is_item": true,
+         "category": "resources",
+         "material_tags": [
+            "stockpile_fuel",
+            "low_fuel",
+            "any_fuel",
+            "common_fuel",
+            "compost_dry",
+            "small",
+            "resource",
+            "preferred_ingredient"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": -2
+      },
+      "stonehearth_ace:fuel": {
+         "fuel_amount": 5
+      }
+   }
+}

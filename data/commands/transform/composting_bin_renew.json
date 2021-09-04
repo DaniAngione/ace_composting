@@ -1,0 +1,12 @@
+{
+   "type": "command",
+   "name": "composting_bin_renew",
+   "display_name": "i18n(ace_composting:data.commands.transform.composting_bin_renew.display_name)",
+   "description": "i18n(ace_composting:data.commands.transform.composting_bin_renew.description)",
+   "default_enabled": true,
+   "ordinal": 99,
+   "icon": "/stonehearth_ace/data/commands/transform/add_thatch_to_bed.png",
+   "action": "call",
+   "function": "stonehearth_ace:transform_command",
+   "args": []
+}

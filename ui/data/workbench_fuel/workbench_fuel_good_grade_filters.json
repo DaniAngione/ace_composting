@@ -1,0 +1,14 @@
+{
+   "stockpile": {
+      "resources": {
+         "categories": {
+            "compost_dry": {
+               "ordinal": 0.9,
+               "display_name": "i18n(ace_composting:entities.resources.fuel.compost_dry.display_name)",
+               "icon": "/ace_composting/entities/resources/fuel/compost_dry/compost_dry.png",
+               "filter": "compost_dry standard fuel"
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,48 @@
+{
+   "stockpile": {
+      "fuels": {
+         "categories": {
+            "manure_dry": {
+               "ordinal": 0.9,
+               "display_name": "i18n(ace_composting:entities.resources.fuel.manure_dry.display_name)",
+               "icon": "/ace_composting/entities/resources/fuel/manure_dry/manure_dry.png",
+               "filter": "manure_dry standard low_fuel"
+            },
+            "compost_small_dry": {
+               "ordinal": 1.9,
+               "display_name": "i18n(ace_composting:entities.resources.fuel.compost_small_dry.display_name)",
+               "icon": "/ace_composting/entities/resources/fuel/compost_small_dry/compost_small_dry.png",
+               "filter": "compost_dry small low_fuel"
+            },
+            "compost_dry": {
+               "ordinal": 3.9,
+               "display_name": "i18n(ace_composting:entities.resources.fuel.compost_dry.display_name)",
+               "icon": "/ace_composting/entities/resources/fuel/compost_dry/compost_dry.png",
+               "filter": "compost_dry standard fuel"
+            }
+         }
+      },
+      "fertilizers": {
+         "categories": {
+            "compost_fertilizer": {
+               "ordinal": 1.5,
+               "display_name": "i18n(ace_composting:entities.consumables.fertilizer_composting.display_name)",
+               "icon": "/ace_composting/entities/consumables/fertilizer_compost/fertilizer_compost.png",
+               "filter": "fertilizer_composting consumable"
+            },
+            "compost_small": {
+               "ordinal": 8,
+               "display_name": "i18n(ace_composting:entities.resources.compost_small.display_name)",
+               "icon": "/ace_composting/entities/resources/compost/compost_small/compost_small.png",
+               "filter": "compost small"
+            },
+            "compost": {
+               "ordinal": 9,
+               "display_name": "i18n(ace_composting:entities.resources.compost.display_name)",
+               "icon": "/ace_composting/entities/resources/compost/compost/compost.png",
+               "filter": "compost large"
+            }
+         }
+      }
+   }
+}

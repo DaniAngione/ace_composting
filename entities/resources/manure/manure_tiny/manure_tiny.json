@@ -1,0 +1,41 @@
+{
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(manure_tiny.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.06
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 0,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(ace_composting:entities.resources.manure_tiny.display_name)",
+         "description": "i18n(ace_composting:entities.resources.manure_tiny.description)",
+         "icon": "file(manure_tiny.png)",
+         "is_item": true,
+         "category": "resources"
+      },
+      "stonehearth:appeal": {
+         "appeal": -6
+      },
+      "stonehearth:food_decay": {
+         "initial_decay": {
+            "min": 6,
+            "max": 12
+         }
+      }
+   }
+}

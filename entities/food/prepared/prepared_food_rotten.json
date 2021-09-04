@@ -1,0 +1,24 @@
+{
+   "entity_data": {
+      "stonehearth:food_decay": {
+         "initial_decay": {
+            "min": 36,
+            "max": 48
+         }
+      },
+      "stonehearth:catalog": {
+         "material_tags": [
+            "compostable",
+            "rotten_food"
+         ]
+      },
+      "core_dani:cooling": {
+         "initial_cooling": {
+            "min": 12,
+            "max": 18
+         },
+         "proper_cool_entity_alias": "ace_composting:resources:compost",
+         "proper_cooler_alias": "ace_composting:herbalist:composting_bin"
+      }
+   }
+}

@@ -1,0 +1,63 @@
+{
+   "type": "entity",
+   "mixins": "file(herbalist_composting_bin_ghost.json)",
+   "components": {
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(herbalist_composting_bin_iconic.json)",
+         "ghost_form": "file(herbalist_composting_bin_ghost.json)",
+         "placeable_on_ground": true
+      },
+      "destination": {
+         "region": [
+            {
+               "min": { "x": 0, "y": 0, "z": 0 },
+               "max": { "x": 2, "y": 1, "z": 2 }
+            }
+         ]
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": { "x": 0, "y": 0, "z": 0 },
+               "max": { "x": 2, "y": 2, "z": 2 }
+            }
+         ]
+      },
+      "stonehearth:storage": {
+         "type": "input_crate",
+         "capacity": 24,
+         "priority": 3,
+         "allow_default": false,
+         "render_contents": true,
+         "filter_list": "ace_composting:ui:composting_bin:filters",
+         "default_filter": [
+            "compostable"
+         ],
+         "is_single_filter": false
+      },
+      "effect_list": {
+         "default": "/ace_composting/data/rigs/entities/containers/composting_bin/effects/idle.json"
+      },
+      "stonehearth:evolve": {}
+   },
+   "entity_data": {
+      "stonehearth:evolve_data": {
+         "next_stage": "ace_composting:herbalist:composting_bin:mulchy",
+         "evolve_time": "5d+48h"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 5,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true
+         }
+      },
+      "stonehearth:appeal": {
+         "appeal": -16
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}

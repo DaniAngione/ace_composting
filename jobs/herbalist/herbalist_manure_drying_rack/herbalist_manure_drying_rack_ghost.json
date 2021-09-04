@@ -1,0 +1,36 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(herbalist_manure_drying_rack.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": -0.5, "y": 0, "z": -0.5 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      },
+      "render_info": {
+         "scale": 0.1,
+         "animation_table": "/ace_composting/data/rigs/entities/containers/manure_drying_rack/manure_drying_rack.json"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(ace_composting:jobs.herbalist.manure_drying_rack.display_name)",
+         "description": "i18n(ace_composting:jobs.herbalist.manure_drying_rack.description)",
+         "icon": "file(herbalist_manure_drying_rack.png)",
+         "category": "storage",
+         "material_tags": [
+            "wood",
+            "containers",
+            "crafted",
+            "furniture",
+            "manure_drying_rack",
+            "stockpile_furniture"
+         ]
+      }
+   }
+}

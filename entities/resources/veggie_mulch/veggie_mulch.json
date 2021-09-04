@@ -1,0 +1,59 @@
+{
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(veggie_mulch.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.09
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 2,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(ace_composting:entities.resources.veggie_mulch.display_name)",
+         "description": "i18n(ace_composting:entities.resources.veggie_mulch.description)",
+         "icon": "file(veggie_mulch.png)",
+         "is_item": true,
+         "category": "resources",
+         "material_tags": [
+            "resource",
+            "veggie_mulch",
+            "compostable"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": -1
+      },
+      "stonehearth:food_decay": {
+         "initial_decay": {
+            "min": 240,
+            "max": 360
+         },
+         "any_storage_modifier": 0.9,
+         "storage_modifiers": {
+            "freezer": 0.7,
+            "cooler": 0.8
+         }
+      },
+      "core_dani:cooling": {
+         "initial_cooling": {
+            "min": 32,
+            "max": 48
+         },
+         "proper_cool_entity_alias": "ace_composting:resources:compost",
+         "proper_cooler_alias": "ace_composting:herbalist:composting_bin"
+      }
+   }
+}

@@ -1,0 +1,19 @@
+{
+   "mixintypes": {
+		"ingredients": "override"
+	},
+   "ingredients": [
+		{
+         "uri": "ace_composting:resources:compost",
+         "count": 2
+      },
+	   {
+         "uri": "stonehearth_ace:food:fish_roe:fish_roe_basket",
+         "count": 1
+      },
+      {
+         "material": "bone resource",
+         "count": 1
+      }
+   ]
+}

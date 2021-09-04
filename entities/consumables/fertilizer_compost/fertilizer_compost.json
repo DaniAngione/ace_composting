@@ -1,0 +1,57 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(fertilizer_compost.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0 }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 33
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 9,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(ace_composting:entities.consumables.fertilizer_composting.display_name)",
+         "description": "i18n(ace_composting:entities.consumables.fertilizer_composting.description)",
+         "icon": "file(fertilizer_compost.png)",
+         "is_item": true,
+         "category": "consumable",
+         "material_tags": [
+            "fertilizer",
+            "fertilizer_composting",
+            "consumable",
+            "stockpile_fertilizer"
+         ]
+      },
+      "stonehearth_ace:fertilizer": {
+         "ilevel": 0.5,
+         "quality_chances": [
+            [
+               3,
+               0.002
+            ],
+            [
+               2,
+               0.03
+            ]
+         ]
+      }
+   }
+}

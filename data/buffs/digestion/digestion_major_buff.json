@@ -1,0 +1,12 @@
+{
+   "type": "buff",
+   "axis": "neutral",
+   "repeat_add_action": "renew_duration",
+   "duration": "3h+180m",
+   "persistent": true,
+   "invisible_to_player": true,
+   "script": "ace_composting:buff_scripts:manure_spawning",
+   "script_info": {
+      "size": "large"
+   }
+}

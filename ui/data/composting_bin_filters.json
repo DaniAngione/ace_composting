@@ -1,0 +1,35 @@
+{
+   "stockpile": {
+      "resources": {
+         "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.resources)",
+         "filter": "resources",
+         "icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/resource_pile.png",
+         "categories": {
+            "rotten_food": {
+               "ordinal": 1,
+               "display_name": "i18n(ace_composting:ui.data.constants.rotten_food_name)",
+               "icon": "/ace_composting/entities/food/rotten_food.png",
+               "filter": "compostable rotten_food"
+            },
+            "manure_small": {
+               "ordinal": 2,
+               "display_name": "i18n(ace_composting:entities.resources.manure_small.display_name)",
+               "icon": "/ace_composting/entities/resources/manure/manure_small/manure_small.png",
+               "filter": "compostable manure small"
+            },
+            "manure": {
+               "ordinal": 3,
+               "display_name": "i18n(ace_composting:entities.resources.manure.display_name)",
+               "icon": "/ace_composting/entities/resources/manure/manure/manure.png",
+               "filter": "compostable manure medium"
+            },
+            "veggie_mulch": {
+               "ordinal": 4,
+               "display_name": "i18n(ace_composting:entities.resources.veggie_mulch.display_name)",
+               "icon": "/ace_composting/entities/resources/veggie_mulch/veggie_mulch.png",
+               "filter": "compostable veggie_mulch"
+            }
+         }
+      }
+   }
+}

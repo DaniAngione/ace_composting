@@ -1,0 +1,9 @@
+{
+   "entity_data": {
+      "stonehearth:pasture_animal": {
+         "manure_data": {
+				"large": "ace_composting:resources:manure_small"
+			}
+      }
+   }
+}

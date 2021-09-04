@@ -1,0 +1,20 @@
+{
+   "stockpile": {
+      "resources": {
+         "categories": {
+            "manure_dry": {
+               "ordinal": 2.1,
+               "display_name": "i18n(ace_composting:entities.resources.fuel.manure_dry.display_name)",
+               "icon": "/ace_composting/entities/resources/fuel/manure_dry/manure_dry.png",
+               "filter": "manure_dry standard low_fuel"
+            },
+            "compost_small_dry": {
+               "ordinal": 4.1,
+               "display_name": "i18n(ace_composting:entities.resources.fuel.compost_small_dry.display_name)",
+               "icon": "/ace_composting/entities/resources/fuel/compost_small_dry/compost_small_dry.png",
+               "filter": "compost_dry small low_fuel"
+            }
+         }
+      }
+   }
+}

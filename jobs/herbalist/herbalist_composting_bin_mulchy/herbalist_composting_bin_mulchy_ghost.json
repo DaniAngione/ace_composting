@@ -1,0 +1,35 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(herbalist_composting_bin_mulchy.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": -0.5, "y": -0.2, "z": -0.5 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      },
+      "render_info": {
+         "scale": 0.1
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(ace_composting:jobs.herbalist.composting_bin_mulchy.display_name)",
+         "description": "i18n(ace_composting:jobs.herbalist.composting_bin_mulchy.description)",
+         "icon": "file(../herbalist_composting_bin/herbalist_composting_bin.png)",
+         "category": "storage",
+         "material_tags": [
+            "wood",
+            "containers",
+            "crafted",
+            "furniture",
+            "composting_bin",
+            "stockpile_furniture"
+         ]
+      }
+   }
+}

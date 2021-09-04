@@ -1,0 +1,63 @@
+{
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(manure_small.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.075
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 0,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(ace_composting:entities.resources.manure_small.display_name)",
+         "description": "i18n(ace_composting:entities.resources.manure_small.description)",
+         "icon": "file(manure_small.png)",
+         "is_item": true,
+         "category": "resources",
+         "material_tags": [
+            "resource",
+            "manure",
+            "small",
+            "compostable",
+            "dryable_manure"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": -12
+      },
+      "stonehearth:food_decay": {
+         "initial_decay": {
+            "min": 24,
+            "max": 36
+         },
+         "any_storage_modifier": 0.9,
+         "storage_modifiers": {
+            "freezer": 0.7,
+            "cooler": 0.8
+         }
+      },
+      "core_dani:cooling": {
+         "initial_cooling": {
+            "min": 12,
+            "max": 24
+         },
+         "proper_cool_entity_alias": "ace_composting:resources:compost_small",
+         "proper_cooler_alias": "ace_composting:herbalist:composting_bin",
+         "alternative_cool_entity_alias": "ace_composting:resources:fuel:manure_dry",
+         "alternative_cooler_alias": "ace_composting:herbalist:manure_drying_rack"
+      }
+   }
+}

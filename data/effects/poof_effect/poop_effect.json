@@ -1,0 +1,33 @@
+{
+   "type": "effect",
+   "tracks": {
+      "glow": {
+         "type": "cubemitter",
+         "cubemitter": "/ace_composting/data/horde/particle/poop/poop_poof.cubemitter.json",
+         "start_time": 0,
+         "end_time": 600,
+         "transforms": { "x": 0, "y": 0, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "sound": {
+         "type": "sound_effect",
+         "start_time": 150,
+         "min_distance": 27,
+         "falloff": 5,
+         "volume": 50,
+         "track": {
+            "type": "one_of",
+            "items": [
+               "ace_composting:sounds:poop_01",
+               "ace_composting:sounds:poop_02",
+               "ace_composting:sounds:poop_03",
+               "ace_composting:sounds:poop_04",
+               "ace_composting:sounds:poop_05"
+            ]
+         }
+      }
+   }
+}
