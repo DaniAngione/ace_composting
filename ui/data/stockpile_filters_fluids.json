@@ -10,6 +10,12 @@
                "icon": "/ace_composting/entities/resources/manure/manure_small/manure_small.png",
                "filter": "compostable manure small"
             },
+            "manure_small_bird": {
+               "ordinal": 1.1,
+               "display_name": "i18n(ace_composting:entities.resources.manure_small_bird.display_name)",
+               "icon": "/ace_composting/entities/resources/manure/manure_small_bird/manure_small_bird.png",
+               "filter": "compostable manure bird"
+            },
             "compost_small": {
                "ordinal": 2,
                "display_name": "i18n(ace_composting:entities.resources.compost_small.display_name)",

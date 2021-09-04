@@ -39,6 +39,11 @@
                "recipe_name": "Naco de Vegetais Empapados",
                "description": "Misture alguns vegetais para irem direto à caixa de compostagem.",
                "flavor": "Precisa de algum tempo para compostar mas se torna um naco completo!"
+            },
+            "compost_export_recipe": {
+               "recipe_name": "Barril Selado de Composto",
+               "description": "Com uma boa embalagem e selamento, composto pode ser transportado de forma segura e é um produto viável para se vender.",
+               "flavor": "Hora de transformar troncinhos em dinheiro!"
             }
          },
          "manure_drying_rack": {
@@ -116,6 +121,18 @@
                "display_name": "Naco de Composto Seco",
                "description": "Bem duro e compacto, cheio de energia! Utilizável como combustível bom."
             }
+         },
+         "manure_tiny_bird": {
+            "display_name": "Pequenas Fezes de Ave",
+            "description": "Muito pequenas, nem servem para compostagem..."
+         },
+         "manure_small_bird": {
+            "display_name": "Fezes Menores de Ave",
+            "description": "A aparência é pior que o cheiro. São compostáveis."
+         },
+         "compost_export": {
+            "display_name": "Barril Selado de Composto",
+            "description": "Apertado e muito bem selado, pronto para ser vendido por umas moedas!"
          }
       },
       "consumables": {

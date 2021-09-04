@@ -1,0 +1,63 @@
+{
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(manure_small_bird.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.09
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0.03, "z": 0 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 0,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(ace_composting:entities.resources.manure_small_bird.display_name)",
+         "description": "i18n(ace_composting:entities.resources.manure_small_bird.description)",
+         "icon": "file(manure_small_bird.png)",
+         "is_item": true,
+         "category": "resources",
+         "material_tags": [
+            "resource",
+            "manure",
+            "bird",
+            "compostable"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": -8
+      },
+      "stonehearth:food_decay": {
+         "initial_decay": {
+            "min": 20,
+            "max": 28
+         },
+         "any_storage_modifier": 0.9,
+         "storage_modifiers": {
+            "freezer": 0.7,
+            "cooler": 0.8
+         }
+      },
+      "core_dani:cooling": {
+         "initial_cooling": {
+            "min": 10,
+            "max": 18
+         },
+         "proper_cool_entity_alias": "ace_composting:resources:compost_small",
+         "proper_cooler_alias": "ace_composting:herbalist:composting_bin"
+      }
+   }
+}

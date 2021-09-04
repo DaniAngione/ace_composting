@@ -30,9 +30,6 @@
          "allow_default": false,
          "render_contents": true,
          "filter_list": "ace_composting:ui:manure_drying_rack:filters",
-         "default_filter": [
-            "dryable_manure"
-         ],
          "is_single_filter": false
       },
       "effect_list": {

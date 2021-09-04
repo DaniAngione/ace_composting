@@ -17,6 +17,12 @@
                "icon": "/ace_composting/entities/resources/manure/manure_small/manure_small.png",
                "filter": "compostable manure small"
             },
+            "manure_small_bird": {
+               "ordinal": 2.1,
+               "display_name": "i18n(ace_composting:entities.resources.manure_small_bird.display_name)",
+               "icon": "/ace_composting/entities/resources/manure/manure_small_bird/manure_small_bird.png",
+               "filter": "compostable manure bird"
+            },
             "manure": {
                "ordinal": 3,
                "display_name": "i18n(ace_composting:entities.resources.manure.display_name)",
@@ -28,6 +34,42 @@
                "display_name": "i18n(ace_composting:entities.resources.veggie_mulch.display_name)",
                "icon": "/ace_composting/entities/resources/veggie_mulch/veggie_mulch.png",
                "filter": "compostable veggie_mulch"
+            },
+            "bone_material": {
+               "ordinal": 5,
+               "display_name": "i18n(stonehearth_ace:entities.resources.bone_material.display_name)",
+               "icon": "/stonehearth_ace/entities/resources/bone/bone_material/bone_material.png",
+               "filter": "compostable bone standard"
+            },
+            "bone_skulls": {
+               "ordinal": 5.1,
+               "display_name": "i18n(stonehearth_ace:entities.resources.bone_skull.display_name)",
+               "icon": "/stonehearth_ace/entities/resources/bone/bone_skull/bone_skull.png",
+               "filter": "compostable bone skull"
+            },
+            "bone_big": {
+               "ordinal": 5.2,
+               "display_name": "i18n(stonehearth_ace:entities.resources.bone_big.display_name)",
+               "icon": "/stonehearth_ace/entities/resources/bone/bone_big/bone_big.png",
+               "filter": "compostable bone big"
+            },
+            "deer_horn": {
+               "ordinal": 5.3,
+               "display_name": "i18n(stonehearth_ace:entities.resources.pelt.deer_horn.display_name)",
+               "icon": "/stonehearth/entities/resources/pelt/deer_horn/deer_horn.png",
+               "filter": "compostable bone horn"
+            },
+            "ogre_bone": {
+               "ordinal": 5.4,
+               "display_name": "i18n(stonehearth:entities.resources.skin.ogre_bone.display_name)",
+               "icon": "/stonehearth_ace/entities/resources/skin/ogre_bone/ogre_bone.png",
+               "filter": "compostable bone ogre_bone"
+            },
+            "chitin": {
+               "ordinal": 6,
+               "display_name": "i18n(stonehearth_ace:entities.resources.chitin.display_name)",
+               "icon": "/stonehearth_ace/entities/resources/chitin_icon.png",
+               "filter": "compostable chitin"
             }
          }
       }

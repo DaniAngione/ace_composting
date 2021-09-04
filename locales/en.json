@@ -39,6 +39,11 @@
                "recipe_name": "Chunk o' Veggie Mulch",
                "description": "Mash some vegetables together for the composting bin.",
                "flavor": "Veggie Mulch takes some time to compost but becomes a whole chunk!"
+            },
+            "compost_export_recipe": {
+               "recipe_name": "Sealed Barrel of Compost",
+               "description": "With good sealing and tight packaging, compost can be properly transported and is viable as a product to be sold to merchants.",
+               "flavor": "Time to turn poop into gold!"
             }
          },
          "manure_drying_rack": {
@@ -116,6 +121,18 @@
                "display_name": "Dry Chunk o' Compost",
                "description": "Very hard and compact, full of energy! Can be used as a good grade fuel."
             }
+         },
+         "manure_tiny_bird": {
+            "display_name": "Tiny Bird Droppings",
+            "description": "Too small, can't be used for anything..."
+         },
+         "manure_small_bird": {
+            "display_name": "Small Bird Droppings",
+            "description": "Doesn't smell half as bad as it looks... Can be used to make compost."
+         },
+         "compost_export": {
+            "display_name": "Sealed Barrel of Compost",
+            "description": "Well packed and sealed tight, ready to be sold for some coin!"
          }
       },
       "consumables": {

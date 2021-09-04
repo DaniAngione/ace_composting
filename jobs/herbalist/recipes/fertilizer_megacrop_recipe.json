@@ -5,7 +5,7 @@
    "ingredients": [
 		{
          "uri": "ace_composting:resources:compost",
-         "count": 1
+         "count": 2
       },
 	   {
          "uri": "stonehearth_ace:food:fish_roe:fish_big_roe_basket",

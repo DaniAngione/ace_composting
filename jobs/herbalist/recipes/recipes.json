@@ -27,6 +27,9 @@
          "recipes": {
 				"fertilizer_compost": {
 					"recipe": "file(fertilizer_compost_recipe.json)"
+				},
+				"compost_export_recipe": {
+					"recipe": "file(compost_export_recipe.json)"
 				}
 			}
 		}

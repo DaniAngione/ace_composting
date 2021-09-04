@@ -2,8 +2,9 @@
    "entity_data": {
       "stonehearth:pasture_animal": {
          "manure_data": {
-				"small": "ace_composting:resources:manure_tiny",
-				"large": "ace_composting:resources:manure_small"
+				"tiny": "ace_composting:resources:manure_tiny:bird",
+            "small": "ace_composting:resources:manure_tiny:bird",
+				"large": "ace_composting:resources:manure_small:bird"
 			}
       }
    }

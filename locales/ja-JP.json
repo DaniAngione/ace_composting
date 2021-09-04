@@ -39,6 +39,11 @@
                "recipe_name": "野菜くずの塊",
                "description": "コンポスターに入れるために野菜を砕いて塊にします。",
                "flavor": "野菜くずは腐敗に少し時間がかかるけど、大きい塊のまま堆肥になる！"
+            },
+            "compost_export_recipe": {
+               "recipe_name": "樽詰めにした堆肥",
+               "description": "堆肥をしっかり梱包して密封することで、運搬に適した形にし、商人に売れるようにします。",
+               "flavor": "糞が金に変わるのだ！"
             }
          },
          "manure_drying_rack": {
@@ -116,6 +121,18 @@
                "display_name": "乾かした堆肥の塊",
                "description": "とても硬いエネルギーの塊！良質燃料として使用できる。"
             }
+         },
+         "manure_tiny_bird": {
+            "display_name": "小さい鳥の微量なフン",
+            "description": "小さすぎる。使い道はないね……。"
+         },
+         "manure_small_bird": {
+            "display_name": "小さい鳥のフン",
+            "description": "見た目ほどは臭わない。堆肥にすることができます。"
+         },
+         "compost_export": {
+            "display_name": "樽詰めにした堆肥",
+            "description": "しっかり梱包して密封されている。売ってお金に変えよう！"
          }
       },
       "consumables": {

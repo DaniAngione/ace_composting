@@ -11,7 +11,7 @@
    "ingredients": [
 		{
          "uri": "ace_composting:resources:compost",
-         "count": 2
+         "count": 3
       }
    ],
    "produces": [

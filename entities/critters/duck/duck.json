@@ -1,7 +1,11 @@
 {
    "entity_data": {
       "stonehearth:pasture_animal": {
-         "no_manure": true
+         "manure_data": {
+				"tiny": "ace_composting:resources:manure_tiny:bird",
+            "small": "ace_composting:resources:manure_tiny:bird",
+				"large": "ace_composting:resources:manure_small:bird"
+			}
       }
    }
 }

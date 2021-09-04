@@ -1,11 +1,9 @@
-@====================================================@=======================================@
-|              # [ACE Mod] Composting #              | v1.2       for Stonehearth ACE 0.9.5+ |
-@====================================================@=======================================@
-|				      by Daniel Angione				         	   		 https://stonehearth.net/  |                                                                    
-@============================================================================================@
+# [ACE Mod] Composting
+### by Daniel Angione
+v1.3 for Stonehearth ACE 0.9.5+
+https://stonehearth.net/ 
 
 ## DESCRIPTION
-
 Composting, also known as "The Poop Mod", aims to give even more options for your farming enhancement while also adding some humorous new mechanic: pasture animal pooping. Or *ahem* manure. This mod will allow your herbalist to use composting bins to treat organic matter into compost which can then be used for fertilizers.
 
 ## CONTENTS
@@ -20,37 +18,45 @@ Additionally, pasture animals will now digest food and give it back to you... as
 The Herbalist can also craft a rack that allows you to dry manure or compost into their dried versions that can be used as fuel. Small Manure and Manure will be transformed into Dry Manure, a lower grade fuel; Bits o' Compost will be transformed into Dry Bit o' Compost, also a lower grade fuel; Chunk o' Compost will be transformed into Dry Chunk o' Compost, a good grade fuel.
 
 ## REQUIREMENTS & PATCHES
-
 [ACE Mod] Compost requires the following mods:
 
-	Dani's Core Mod
-	https://steamcommunity.com/sharedfiles/filedetails/?id=1403214892
+- Dani's Core Mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=1403214892
 	
-	Authorized Community Expansion (ACE)
-	https://steamcommunity.com/sharedfiles/filedetails/?id=1577375188
+- Authorized Community Expansion (ACE)
+https://steamcommunity.com/sharedfiles/filedetails/?id=1577375188
 	
 ## COMPATIBILITY
-
 This mod should be compatible with all other mods unless they override animal feeding actions. This mod DOESN'T WORK without ACE.
 
 ## LOCALIZATION
-
-This mod is completely compatible with Stonehearth's localization, it is in English (en) by default but also includes a Brazillian Portuguese (pt-BR) translation. 
+This mod is completely compatible with Stonehearth's localization, it is in English (en) by default but also includes a Brazillian Portuguese (pt-BR) translation and a Japanese (ja-JP) translation provided by ghostcrap!
 
 If you're willing to translate this mod to any other language and would like to see the localization supported on the official mod itself, contact me on Discord:
 DaniAngione#3266
 
 ## CREDITS, SUPPORT & LICENSE
-
 Mod created by Daniel Angione (DaniAngione#3266 on Discord; daniangi@gmail.com)
 Stonehearth created by Radiant Entertainment (https://stonehearth.net)
 Authorized Community Expansion (ACE) created by the ACE Team
+Translators: ghostcrap (JP)
 
 This mod and all its contents are under a GNU GPL 3.0 license and may be used, shared, remixed and anything else as long as credit is given, linked and the same license is used! More info: https://www.gnu.org/licenses/gpl-3.0.en.html
 
 ## CHANGELOG
 
-# (December 26th, 2020) v1.2
+### September 4th, 2021 - v1.3
+- Added support for Japanese language (ja-JP) provided by ghostcrap!
+- Fixed some issues and typos
+- Fertilizer recipes now require slightly more compost
+- Ingredients for Fertilizer and Enhanced Fertilizer have been swapped around (Charcoal and Fish Roe) as indicated by the unstable ACE release.
+- Composting Bins & Drying racks should not have default filters anymore.
+- You can now compost bones. They take longer to become compost than other products.
+- Birds now have their own droppings! However, bird droppings will only ever provide small compost (or nothing)
+- You can now craft a "Sealed Barrel of Compost" by using a small barrel and 12 bits of compost. This special item can be stored under the generic "Finished Goods" category in stockpiles or chests and has the sole purpose of being sold. Finally a way to get rid of all the excess compost!
+- Transformation times have been slightly adjusted.
+
+### December 26th, 2020 - v1.2
 - The mod has been updated to the latest ACE version.
 - Fuel Selection storage UI will now display the Composting mod fuels.
 - Filters for the "Composting Bin" and "Manure Drying Rack" will not have the "Any..." options anymore; and these containers have been turned into multiple-filter containers.
@@ -62,7 +68,7 @@ This mod and all its contents are under a GNU GPL 3.0 license and may be used, s
 - Filters for some of the mod's resources have been added to storage containers and fluid containers. Storing things like rotten food or manure will make them last a little longer while waiting for space in the composting bin.
 - Composting Bins will last a couple of days more before getting "Mulchy" and requiring new thatch.
 
-# (December 11th, 2019) v1.1
+### December 11th, 2019 - v1.1
 - The herbalist can now craft a “Manure Drying Rack”! It can be used for… well, letting your poop dry! (Not your poop, hopefully)
 - Dried manure can be used as a low-grade fuel! Yay for poop-powered hearths!
 - You can also dry already treated compost, creating an even more efficient (good grade) compost fuel!
@@ -71,5 +77,5 @@ This mod and all its contents are under a GNU GPL 3.0 license and may be used, s
 - Fixed an issue with the composting bin rendering (it wasn’t displaying contents with the correct scale)
 - Fixed a mod structure issue with weird file paths.
 
-# (November 23rd, 2019) v1.0
+### November 23rd, 2019 - v1.0
 - Initial release

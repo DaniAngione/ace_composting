@@ -1,0 +1,17 @@
+{
+   "entity_data": {
+      "stonehearth:catalog": {
+         "material_tags": [
+            "compostable"
+         ]
+      }
+   },
+   "core_dani:cooling": {
+      "initial_cooling": {
+         "min": 24,
+         "max": 36
+      },
+      "proper_cool_entity_alias": "ace_composting:resources:compost_small",
+      "proper_cooler_alias": "ace_composting:herbalist:composting_bin"
+   }
+}

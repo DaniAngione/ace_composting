@@ -30,9 +30,6 @@
          "allow_default": false,
          "render_contents": true,
          "filter_list": "ace_composting:ui:composting_bin:filters",
-         "default_filter": [
-            "compostable"
-         ],
          "is_single_filter": false
       },
       "effect_list": {

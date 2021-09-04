@@ -1,0 +1,37 @@
+{
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(compost_export.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 52,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(ace_composting:entities.resources.compost_export.display_name)",
+         "description": "i18n(ace_composting:entities.resources.compost_export.description)",
+         "icon": "file(compost_export.png)",
+         "is_item": true,
+         "category": "resources",
+         "material_tags": [
+            "compost_export",
+            "refined",
+            "stockpile_refined_goods"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": -6
+      }
+   }
+}
