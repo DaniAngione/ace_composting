@@ -8,6 +8,7 @@
    "script": "ace_composting:buff_scripts:manure_spawning",
    "script_info": {
       "size": "small",
-      "probability": 0.5
+      "probability": 0.5,
+      "efficiency": 0.4
    }
 }

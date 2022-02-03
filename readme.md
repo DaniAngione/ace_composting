@@ -1,6 +1,6 @@
 # [ACE Mod] Composting
 ### by Daniel Angione
-v1.3 for Stonehearth ACE 0.9.5+
+v1.4 for Stonehearth ACE 0.9.5.5+
 https://stonehearth.net/ 
 
 ## DESCRIPTION
@@ -44,6 +44,15 @@ Translators: ghostcrap (JP)
 This mod and all its contents are under a GNU GPL 3.0 license and may be used, shared, remixed and anything else as long as credit is given, linked and the same license is used! More info: https://www.gnu.org/licenses/gpl-3.0.en.html
 
 ## CHANGELOG
+
+### February 3rd, 2022 - v1.4
+- Fixed some recipes to not use seeds anymore
+- Made Compost Fertilizer slightly cheaper (2 chunks of compost now)
+- Made it so the ACE smart crafter will not request compost to be crafted anymore
+- Added unique visual models for the Compost Fertilizer when applied on farms
+- Created a new parameter "efficiency" for the different digestion buffs that determines the chance of that digestion to result in manure... This should slightly reduce the amount of manure on pastures, making them less horrible.
+- Made it so that animals that are sleeping when "poop time" arrives will instead just "renew" their digestion timers. They were simply cancelling before... Where was all that poop going to? o.O
+- Optimized the manure spawning script to be slightly better for performance.
 
 ### September 4th, 2021 - v1.3
 - Added support for Japanese language (ja-JP) provided by ghostcrap!
