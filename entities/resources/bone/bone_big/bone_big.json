@@ -12,6 +12,6 @@
          "max": 48
       },
       "proper_cool_entity_alias": "ace_composting:resources:compost",
-      "proper_cooler_alias": "ace_composting:herbalist:composting_bin"
+      "proper_cooler_alias": "ace_composting:shepherd:composting_bin"
    }
 }

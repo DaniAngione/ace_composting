@@ -1,0 +1,16 @@
+{
+   "components": {},
+   "entity_data": {
+      "mixintypes": {
+         "stonehearth:table": "override"
+      },
+      "stonehearth:table": {
+         "drop_effect": "carry_putdown_on_table",
+         "drop_offset": {
+            "x": -0.5,
+            "y": 1,
+            "z": -0.5
+         }
+      }
+   }
+}

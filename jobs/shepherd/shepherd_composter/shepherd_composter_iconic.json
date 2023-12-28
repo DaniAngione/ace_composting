@@ -1,0 +1,15 @@
+{
+   "components": {
+      "model_variants": {
+         "mixintypes": {
+            "default": "override"
+         },
+         "default": {
+            "models": [
+               "file(shepherd_composter_iconic.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {}
+}

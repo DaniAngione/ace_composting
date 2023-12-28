@@ -1,35 +1,35 @@
 {
-	"craftable_recipes" : {
+	"craftable_recipes": {
 		"workbenches": {
-         "recipes": {
-            "herbalist_composting_bin": {
-               "recipe": "file(herbalist_composting_bin_recipe.json)"
-            },
+			"recipes": {
+				"herbalist_composting_bin": {
+					"recipe": "/stonehearth_ace/jobs/common/recipes/removed_recipe.json"
+				},
 				"herbalist_manure_drying_rack": {
-               "recipe": "file(herbalist_manure_drying_rack_recipe.json)"
-            }
-         }
-      },
-		"refinement_ingredients" : {
-			"recipes" : {
-				"compost" : {
-					"recipe" : "file(compost_recipe.json)"
+					"recipe": "/stonehearth_ace/jobs/common/recipes/removed_recipe.json"
+				}
+			}
+		},
+		"refinement_ingredients": {
+			"recipes": {
+				"compost": {
+					"recipe": "/stonehearth_ace/jobs/common/recipes/removed_recipe.json"
 				},
-				"compost_small" : {
-					"recipe" : "file(compost_small_recipe.json)"
+				"compost_small": {
+					"recipe": "/stonehearth_ace/jobs/common/recipes/removed_recipe.json"
 				},
-				"veggie_mulch" : {
-					"recipe" : "file(veggie_mulch_recipe.json)"
+				"veggie_mulch": {
+					"recipe": "/stonehearth_ace/jobs/common/recipes/removed_recipe.json"
 				}
 			}
 		},
 		"farming_enhancements": {
-         "recipes": {
+			"recipes": {
 				"fertilizer_compost": {
-					"recipe": "file(fertilizer_compost_recipe.json)"
+					"recipe": "/stonehearth_ace/jobs/common/recipes/removed_recipe.json"
 				},
 				"compost_export_recipe": {
-					"recipe": "file(compost_export_recipe.json)"
+					"recipe": "/stonehearth_ace/jobs/common/recipes/removed_recipe.json"
 				}
 			}
 		}

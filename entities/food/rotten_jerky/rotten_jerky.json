@@ -4,7 +4,8 @@
          "initial_decay": {
             "min": 24,
             "max": 48
-         }
+         },
+         "any_storage_modifier": 0.75
       },
       "stonehearth:catalog": {
          "material_tags": [
@@ -18,7 +19,7 @@
             "max": 16
          },
          "proper_cool_entity_alias": "ace_composting:resources:compost_small",
-         "proper_cooler_alias": "ace_composting:herbalist:composting_bin"
+         "proper_cooler_alias": "ace_composting:shepherd:composting_bin"
       }
    }
 }

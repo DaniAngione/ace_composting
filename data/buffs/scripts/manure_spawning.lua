@@ -6,6 +6,7 @@ local ManureSpawningBuffScript = class()
 function ManureSpawningBuffScript:on_buff_removed(entity, buff)
    local data = radiant.entities.get_entity_data(entity, 'stonehearth:pasture_animal')
    local buff_uri = buff:get_uri()
+   local script = buff:get_json().script_info
    local efficiency = script.efficiency or 0.6
 
    if data.no_manure then 
@@ -22,7 +23,6 @@ function ManureSpawningBuffScript:on_buff_removed(entity, buff)
    end
 
    -- There will be poop! Let us proceed...
-   local script = buff:get_json().script_info
    local owner = radiant.entities.get_player_id(entity)
    local location = radiant.entities.get_world_grid_location(entity)
    local manure_data = data and data.manure_data or {}
@@ -44,7 +44,7 @@ function ManureSpawningBuffScript:on_buff_removed(entity, buff)
       selected_size = small_manure
    end
    
-   -- check the chance for bigger poop
+   -- Check the chance for a chonkier poop
    if script.probability then
       if rng:get_real(0, 1) > script.probability then
          selected_size = tiny_manure

@@ -1,6 +1,10 @@
 {
    "jobs": {
-      "herbalist": {
+      "shepherd": {
+         "shepherd_composter": {
+            "display_name": "羊飼いの堆肥化作業台",
+            "description": "シェパードが堆肥化物を扱うのに十分に汚れた収容箱と便利なテーブル。"
+         },
          "composting_bin": {
             "display_name": "コンポスター",
             "description": "腐った食物や家畜のフンなどのゴミを堆肥に変換します。"
@@ -10,14 +14,15 @@
             "description": "再び堆肥を作るためにふきわらを入れましょう。"
          },
          "recipes": {
-            "herbalist_composting_bin_recipe": {
+            "composting_name": "農業: 堆肥化",
+            "shepherd_composting_bin_recipe": {
                "recipe_name": "コンポスター",
-               "description": "薬草医がこれを使って腐った食物や家畜のフンなどのゴミを堆肥に変換します。",
+               "description": "羊飼いがこれを使って腐った食物や家畜のフンなどのゴミを堆肥に変換します。",
                "flavor": "継続的にふきわらが必要"
             },
-            "herbalist_manure_drying_rack_recipe": {
+            "shepherd_manure_drying_rack_recipe": {
                "recipe_name": "厩肥の乾燥台",
-               "description": "薬草医が家畜のフンや堆肥を乾燥させて燃料として使えるようにします。",
+               "description": "羊飼いが家畜のフンや堆肥を乾燥させて燃料として使えるようにします。",
                "flavor": "これぞ生命の循環！"
             },
             "compost_recipe": {
@@ -57,7 +62,7 @@
          "transform": {
             "composting_bin_renew": {
                "display_name": "ふきわらを取り替える",
-               "description": "効率よく堆肥化するために、薬草医に汚れたわらと乾いた清潔なふきわらを入れ替えてもらいましょう。"
+               "description": "効率よく堆肥化するために、羊飼いに汚れたわらと乾いた清潔なふきわらを入れ替えてもらいましょう。"
             }
          }
       }

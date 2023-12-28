@@ -1,0 +1,5 @@
+{
+   "recipe_name": "i18n(ace_composting:jobs.shepherd.shepherd_composter.display_name)",
+   "description": "i18n(ace_composting:jobs.shepherd.shepherd_composter.description)",
+   "portrait": "/ace_composting/jobs/shepherd/shepherd_composter/shepherd_composter.png"
+}

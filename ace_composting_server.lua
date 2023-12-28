@@ -2,10 +2,7 @@ ace_composting = {}
 
 local service_creation_order = {}
 
-local monkey_patches = {
-   ace_composting_eat_from_trough_adjacent_action = 'stonehearth_ace.ai.actions.pasture_animal.eat_from_trough_adjacent_action',
-	ace_composting_eat_feed_adjacent_action = 'stonehearth.ai.actions.pasture_animal.eat_feed_adjacent_action'
-}
+local monkey_patches = {}
 
 local function monkey_patching()
    for from, into in pairs(monkey_patches) do

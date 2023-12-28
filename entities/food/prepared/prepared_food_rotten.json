@@ -2,9 +2,10 @@
    "entity_data": {
       "stonehearth:food_decay": {
          "initial_decay": {
-            "min": 36,
+            "min": 24,
             "max": 48
-         }
+         },
+         "any_storage_modifier": 0.75
       },
       "stonehearth:catalog": {
          "material_tags": [
@@ -18,7 +19,7 @@
             "max": 18
          },
          "proper_cool_entity_alias": "ace_composting:resources:compost",
-         "proper_cooler_alias": "ace_composting:herbalist:composting_bin"
+         "proper_cooler_alias": "ace_composting:shepherd:composting_bin"
       }
    }
 }

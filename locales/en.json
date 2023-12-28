@@ -1,6 +1,10 @@
 {
    "jobs": {
-      "herbalist": {
+      "shepherd": {
+         "shepherd_composter": {
+            "display_name": "Shepherd's Composting Workbench",
+            "description": "An adequately dirty containment crate and handy table for the Shepherd to work with the composting stuff."
+         },
          "composting_bin": {
             "display_name": "Composting Bin",
             "description": "Used to turn residues like rotten food and manure into compost."
@@ -10,12 +14,13 @@
             "description": "Requires new thatching to produce compost again."
          },
          "recipes": {
-            "herbalist_composting_bin_recipe": {
+            "composting_name": "Farming: Composting",
+            "shepherd_composting_bin_recipe": {
                "recipe_name": "Composting Bin",
-               "description": "Used by the Herbalist to turn residues like rotten food and manure into compost.",
+               "description": "Used by the Shepherd to turn residues like rotten food and manure into compost.",
                "flavor": "The thatching requires replacement every now and then"
             },
-            "herbalist_manure_drying_rack_recipe": {
+            "shepherd_manure_drying_rack_recipe": {
                "recipe_name": "Manure Drying Rack",
                "description": "Used for letting manure and compost dry enough so that they can be used as fuel.",
                "flavor": "It is the circle of life!"
@@ -56,8 +61,8 @@
       "commands": {
          "transform": {
             "composting_bin_renew": {
-               "display_name": "Replace Thatching",
-               "description": "Order the Herbalist to bring dry, clean thatch and replace the mulchy one so composting can continue efficiently."
+               "display_name": "Replace Thatching Material",
+               "description": "Order the Shepherd to bring dry, clean grass and replace the mulchy one so composting can continue efficiently."
             }
          }
       }

@@ -1,0 +1,20 @@
+{
+   "working_ingredient": "stonehearth_ace:jobs:working_ingredient:shepherd_fertilizer",
+   "mixintypes": {
+      "ingredients": "override"
+   },
+   "ingredients": [
+      {
+         "uri": "ace_composting:resources:compost",
+         "count": 3
+      },
+      {
+         "uri": "stonehearth_ace:resources:coal:piece_of_charcoal",
+         "count": 1
+      },
+      {
+         "material": "bone resource",
+         "count": 1
+      }
+   ]
+}

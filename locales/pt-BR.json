@@ -1,6 +1,10 @@
 {
    "jobs": {
-      "herbalist": {
+      "shepherd": {
+         "shepherd_composter": {
+            "display_name": "Oficina de Compostagem do Pastor",
+            "description": "Uma caixa e mesa adequadamente sujas para o Pastor trabalhar com as coisas de compostagem."
+         },
          "composting_bin": {
             "display_name": "Caixa de Compostagem",
             "description": "Utilizada para transformar resíduos como comida podre em composto orgânico."
@@ -10,14 +14,15 @@
             "description": "Requer palha para produzir composto orgânico novamente."
          },
          "recipes": {
-            "herbalist_composting_bin_recipe": {
+            "composting_name": "Agricultura: Compostagem",
+            "shepherd_composting_bin_recipe": {
                "recipe_name": "Caixa de Compostagem",
-               "description": "Utilizada pelo Herbalista para transformar resíduos como comida podre em composto orgânico.",
+               "description": "Utilizada pelo Pastor para transformar resíduos como comida podre em composto orgânico.",
                "flavor": "O forro de palha requer substituição de tanto em tanto"
             },
-				"herbalist_manure_drying_rack_recipe": {
+            "shepherd_manure_drying_rack_recipe": {
                "recipe_name": "Mesa de Secagem de Fezes",
-               "description": "Utilizada pelo herbalista para secar e transformar fezes ou composto em combustível.",
+               "description": "Utilizada pelo Pastor para secar e transformar fezes ou composto em combustível.",
                "flavor": "É o ciclo da vida!"
             },
             "compost_recipe": {
@@ -57,7 +62,7 @@
          "transform": {
             "composting_bin_renew": {
                "display_name": "Substituir Forro de Palha",
-               "description": "Ordene o Herbalista a trazer palha seca e limpa para substituir a palha empapada e continuar a compostagem normalmente."
+               "description": "Ordene o Pastor a trazer palha seca e limpa para substituir a palha empapada e continuar a compostagem normalmente."
             }
          }
       }
@@ -108,7 +113,7 @@
             "display_name": "Naco de Vegetais Empapados",
             "description": "Que mistura! Pronto para ser colocado numa caixa de compostagem."
          },
-			"fuel": {
+         "fuel": {
             "manure_dry": {
                "display_name": "Fezes Secas",
                "description": "Pedaços de fezes duros e quebradiços. Utilizável como combustível fraco."

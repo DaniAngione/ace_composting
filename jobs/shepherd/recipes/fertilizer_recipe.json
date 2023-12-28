@@ -1,0 +1,17 @@
+{
+   "working_ingredient": "stonehearth_ace:jobs:working_ingredient:shepherd_fertilizer",
+   "level_requirement": 3,
+   "mixintypes": {
+      "ingredients": "override"
+   },
+   "ingredients": [
+      {
+         "uri": "ace_composting:resources:compost",
+         "count": 3
+      },
+      {
+         "material": "bone resource",
+         "count": 1
+      }
+   ]
+}

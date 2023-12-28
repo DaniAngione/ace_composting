@@ -12,7 +12,11 @@
          "scale": 0.09
       },
       "mob": {
-         "model_origin": { "x": 0, "y": 0.03, "z": 0 }
+         "model_origin": {
+            "x": 0,
+            "y": 0.03,
+            "z": 0
+         }
       }
    },
    "entity_data": {
@@ -57,7 +61,7 @@
             "max": 18
          },
          "proper_cool_entity_alias": "ace_composting:resources:compost_small",
-         "proper_cooler_alias": "ace_composting:herbalist:composting_bin"
+         "proper_cooler_alias": "ace_composting:shepherd:composting_bin"
       }
    }
 }

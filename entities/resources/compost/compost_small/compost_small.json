@@ -54,7 +54,7 @@
             "max": 24
          },
          "proper_cool_entity_alias": "ace_composting:resources:fuel:compost_small_dry",
-         "proper_cooler_alias": "ace_composting:herbalist:manure_drying_rack"
+         "proper_cooler_alias": "ace_composting:shepherd:manure_drying_rack"
       }
    }
 }

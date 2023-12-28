@@ -1,21 +1,21 @@
 # [ACE Mod] Composting
 ### by Daniel Angione
-v1.4 for Stonehearth ACE 0.9.5.5+
+v1.5 for Stonehearth ACE 0.9.6.14+
 https://stonehearth.net/ 
 
 ## DESCRIPTION
-Composting, also known as "The Poop Mod", aims to give even more options for your farming enhancement while also adding some humorous new mechanic: pasture animal pooping. Or *ahem* manure. This mod will allow your herbalist to use composting bins to treat organic matter into compost which can then be used for fertilizers.
+Composting, also known as "The Poop Mod", aims to give even more options for your farming enhancement while also adding some humorous new mechanic: pasture animal pooping. Or *ahem* manure. This mod will allow your Shepherd to use composting bins to treat organic matter into compost which can then be used for fertilizers.
 
 ## CONTENTS
 
 # COMPOSTING BIN
-The Composting Bin can be created by the Herbalist and operated by anyone with hauling capabilities. Different items can be placed in it: manure, rotten foodstuffs or crafted mulch made from fresh veggies - and over time they will become compost which can then be directly used for crafting larger compost chunks or fertilizers. In the future, there might be other uses for compost.
+The Composting Bin can be created by the Shepherd and operated by anyone with hauling capabilities. Different items can be placed in it: manure, rotten foodstuffs or crafted mulch made from fresh veggies - and over time they will become compost which can then be directly used for crafting larger compost chunks or fertilizers. In the future, there might be other uses for compost.
 
 # MANURE
 Additionally, pasture animals will now digest food and give it back to you... as manure. Manure can come in various sizes and can be directly taken to a Compost Bin for, well, composting. The manure your animals produce depends on their feeding habits; well fed animals tend to produce larger and better manure while animals relying on grass or basic fodder shall disappoint you with smaller droppings. The maximum size of an animal's "production" is limited by their species, however.
 
 # MANURE DRYING RACK
-The Herbalist can also craft a rack that allows you to dry manure or compost into their dried versions that can be used as fuel. Small Manure and Manure will be transformed into Dry Manure, a lower grade fuel; Bits o' Compost will be transformed into Dry Bit o' Compost, also a lower grade fuel; Chunk o' Compost will be transformed into Dry Chunk o' Compost, a good grade fuel.
+The Shepherd can also craft a rack that allows you to dry manure or compost into their dried versions that can be used as fuel. Small Manure and Manure will be transformed into Dry Manure, a lower grade fuel; Bits o' Compost will be transformed into Dry Bit o' Compost, also a lower grade fuel; Chunk o' Compost will be transformed into Dry Chunk o' Compost, a good grade fuel.
 
 ## REQUIREMENTS & PATCHES
 [ACE Mod] Compost requires the following mods:
@@ -44,6 +44,13 @@ Translators: ghostcrap (JP)
 This mod and all its contents are under a GNU GPL 3.0 license and may be used, shared, remixed and anything else as long as credit is given, linked and the same license is used! More info: https://www.gnu.org/licenses/gpl-3.0.en.html
 
 ## CHANGELOG
+
+### December 28th, 2023 - v1.5
+- All the Composting stuff has been moved to the Shepherd, who is now responsible for doing fertilizers after the ACE 0.9.6.14 Update.
+- The monkey-patches for the animal feeding AI actions have been removed since ACE now supports animal feed buffs.
+- Fixed an issue introduced by an ACE update that caused rotten food to disappear too quickly. This was intended, but it was bad for this mod, so this mod reverts it.
+- Changed the Shepherd's Composter workbench to be less confusing with this mod's Compost Bins.
+- Updated the visuals of the Compost Bins.
 
 ### February 3rd, 2022 - v1.4
 - Fixed some recipes to not use seeds anymore
@@ -78,7 +85,7 @@ This mod and all its contents are under a GNU GPL 3.0 license and may be used, s
 - Composting Bins will last a couple of days more before getting "Mulchy" and requiring new thatch.
 
 ### December 11th, 2019 - v1.1
-- The herbalist can now craft a “Manure Drying Rack”! It can be used for… well, letting your poop dry! (Not your poop, hopefully)
+- The Herbalist can now craft a “Manure Drying Rack”! It can be used for… well, letting your poop dry! (Not your poop, hopefully)
 - Dried manure can be used as a low-grade fuel! Yay for poop-powered hearths!
 - You can also dry already treated compost, creating an even more efficient (good grade) compost fuel!
 - Composting bins now have a shiny effect when iconic, similar to other tools.

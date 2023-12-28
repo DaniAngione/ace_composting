@@ -1,0 +1,39 @@
+{
+	"craftable_recipes": {
+		"workbenches": {
+			"recipes": {
+				"shepherd_manure_drying_rack": {
+					"recipe": "file(shepherd_manure_drying_rack_recipe.json)"
+				}
+			}
+		},
+		"composting": {
+			"ordinal": 34,
+			"name": "i18n(ace_composting:jobs.shepherd.recipes.composting_name)",
+			"recipes": {
+				"shepherd_composting_bin": {
+					"recipe": "file(shepherd_composting_bin_recipe.json)"
+				},
+				"compost": {
+					"recipe": "file(compost_recipe.json)"
+				},
+				"compost_small": {
+					"recipe": "file(compost_small_recipe.json)"
+				},
+				"veggie_mulch": {
+					"recipe": "file(veggie_mulch_recipe.json)"
+				},
+				"compost_export_recipe": {
+					"recipe": "file(compost_export_recipe.json)"
+				}
+			}
+		},
+		"fertilizer": {
+			"recipes": {
+				"fertilizer_compost": {
+					"recipe": "file(fertilizer_compost_recipe.json)"
+				}
+			}
+		}
+	}
+}

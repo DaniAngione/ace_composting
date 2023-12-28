@@ -1,0 +1,27 @@
+{
+   "type": "recipe",
+   "effort": 20,
+   "work_units": 5,
+   "recipe_name": "i18n(ace_composting:jobs.shepherd.recipes.shepherd_composting_bin_recipe.recipe_name)",
+   "description": "i18n(ace_composting:jobs.shepherd.recipes.shepherd_composting_bin_recipe.description)",
+   "flavor": "i18n(ace_composting:jobs.shepherd.recipes.shepherd_composting_bin_recipe.flavor)",
+   "portrait": "/ace_composting/jobs/shepherd/shepherd_composting_bin/shepherd_composting_bin.png",
+   "work_effect": "work",
+   "level_requirement": 2,
+   "ordinal": 0,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 2
+      },
+      {
+         "material": "thatch resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "ace_composting:shepherd:composting_bin"
+      }
+   ]
+}
