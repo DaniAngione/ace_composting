@@ -10,32 +10,16 @@
       "destination": {
          "region": [
             {
-               "min": {
-                  "x": 0,
-                  "y": 0,
-                  "z": 0
-               },
-               "max": {
-                  "x": 2,
-                  "y": 1,
-                  "z": 2
-               }
+               "min": { "x": 0, "y": 0, "z": 0 },
+               "max": { "x": 2, "y": 1, "z": 2 }
             }
          ]
       },
       "region_collision_shape": {
          "region": [
             {
-               "min": {
-                  "x": 0,
-                  "y": 0,
-                  "z": 0
-               },
-               "max": {
-                  "x": 2,
-                  "y": 2,
-                  "z": 2
-               }
+               "min": { "x": 0, "y": 0, "z": 0 },
+               "max": { "x": 2, "y": 2, "z": 2 }
             }
          ]
       },
@@ -50,6 +34,9 @@
       },
       "effect_list": {
          "default": "/ace_composting/data/rigs/entities/containers/manure_drying_rack/effects/idle.json"
+      },
+      "core_dani:passive_transformer": {
+         "type": "compost_drier"
       }
    },
    "entity_data": {

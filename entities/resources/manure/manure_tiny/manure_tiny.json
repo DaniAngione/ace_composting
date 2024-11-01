@@ -26,7 +26,7 @@
          "description": "i18n(ace_composting:entities.resources.manure_tiny.description)",
          "icon": "file(manure_tiny.png)",
          "is_item": true,
-         "category": "resources"
+         "category": "resources_animal"
       },
       "stonehearth:appeal": {
          "appeal": -6

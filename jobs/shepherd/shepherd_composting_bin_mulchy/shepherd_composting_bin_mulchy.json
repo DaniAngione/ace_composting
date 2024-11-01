@@ -10,32 +10,16 @@
       "destination": {
          "region": [
             {
-               "min": {
-                  "x": 0,
-                  "y": 0,
-                  "z": 0
-               },
-               "max": {
-                  "x": 2,
-                  "y": 1,
-                  "z": 2
-               }
+               "min": { "x": 0, "y": 0, "z": 0 },
+               "max": { "x": 2, "y": 1, "z": 2 }
             }
          ]
       },
       "region_collision_shape": {
          "region": [
             {
-               "min": {
-                  "x": 0,
-                  "y": 0,
-                  "z": 0
-               },
-               "max": {
-                  "x": 2,
-                  "y": 2,
-                  "z": 2
-               }
+               "min": { "x": 0, "y": 0, "z": 0 },
+               "max": { "x": 2, "y": 2, "z": 2 }
             }
          ]
       },
@@ -51,7 +35,11 @@
          ],
          "is_single_filter": false
       },
-      "stonehearth_ace:transform": {}
+      "stonehearth_ace:transform": {},
+      "core_dani:passive_transformer": {
+         "type": "composter",
+         "paused": true
+      }
    },
    "entity_data": {
       "stonehearth_ace:transform_data": {

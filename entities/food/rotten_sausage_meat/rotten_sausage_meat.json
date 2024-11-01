@@ -2,10 +2,15 @@
    "entity_data": {
       "stonehearth:food_decay": {
          "initial_decay": {
-            "min": 24,
-            "max": 48
+            "min": 16,
+            "max": 24
          },
-         "any_storage_modifier": 0.75
+         "any_storage_modifier": 0.5,
+         "storage_modifiers": {
+            "freezer": 0.2,
+            "cooler": 0.4,
+            "passive_transformer": 0
+         }
       },
       "stonehearth:catalog": {
          "material_tags": [
@@ -13,13 +18,17 @@
             "rotten_food"
          ]
       },
-      "core_dani:cooling": {
-         "initial_cooling": {
-            "min": 8,
-            "max": 16
-         },
-         "proper_cool_entity_alias": "ace_composting:resources:compost_small",
-         "proper_cooler_alias": "ace_composting:shepherd:composting_bin"
+      "core_dani:passive_transform": {
+         "type": "compostable",
+         "processes": {
+            "composting": {
+               "result": "ace_composting:resources:compost_small",
+               "progress_required": {
+                  "min": 8,
+                  "max": 16
+               }
+            }
+         }
       }
    }
 }

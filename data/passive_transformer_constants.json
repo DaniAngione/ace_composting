@@ -1,0 +1,26 @@
+{
+   "constants": {
+      "passive_transformer": {
+         "TRANSFORMERS": [
+            {
+               "composter": {
+                  "composting": {
+                     "rate": 1,
+                     "sunlight_based": true,
+                     "quality": -1
+                  }
+               }
+            },
+            {
+               "compost_drier": {
+                  "compost_drying": {
+                     "rate": 1,
+                     "sunlight_based": true,
+                     "quality": -1
+                  }
+               }
+            }
+         ]
+      }
+   }
+}

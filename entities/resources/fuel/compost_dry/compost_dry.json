@@ -24,7 +24,7 @@
          "description": "i18n(ace_composting:entities.resources.fuel.compost_dry.description)",
          "icon": "file(compost_dry.png)",
          "is_item": true,
-         "category": "resources",
+         "category": "refined",
          "material_tags": [
             "stockpile_fuel",
             "fuel",

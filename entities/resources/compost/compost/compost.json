@@ -23,7 +23,7 @@
          "description": "i18n(ace_composting:entities.resources.compost.description)",
          "icon": "file(compost.png)",
          "is_item": true,
-         "category": "resources",
+         "category": "refined",
          "material_tags": [
             "resource",
             "compost",
@@ -42,16 +42,21 @@
          "any_storage_modifier": 0.9,
          "storage_modifiers": {
             "freezer": 0.7,
-            "cooler": 0.8
+            "cooler": 0.8,
+            "passive_transformer": 0
          }
       },
-      "core_dani:cooling": {
-         "initial_cooling": {
-            "min": 36,
-            "max": 48
-         },
-         "proper_cool_entity_alias": "ace_composting:resources:fuel:compost_dry",
-         "proper_cooler_alias": "ace_composting:shepherd:manure_drying_rack"
+      "core_dani:passive_transform": {
+         "type": "dryable_compost",
+         "processes": {
+            "compost_drying": {
+               "result": "ace_composting:resources:fuel:compost_dry",
+               "progress_required": {
+                  "min": 36,
+                  "max": 48
+               }
+            }
+         }
       }
    }
 }

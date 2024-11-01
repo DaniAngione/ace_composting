@@ -24,8 +24,8 @@
             "composting": {
                "result": "ace_composting:resources:compost_small",
                "progress_required": {
-                  "min": 8,
-                  "max": 16
+                  "min": 12,
+                  "max": 24
                }
             }
          }

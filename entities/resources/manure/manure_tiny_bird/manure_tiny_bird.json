@@ -29,7 +29,7 @@
          "description": "i18n(ace_composting:entities.resources.manure_tiny_bird.description)",
          "icon": "file(manure_tiny_bird.png)",
          "is_item": true,
-         "category": "resources"
+         "category": "resources_animal"
       },
       "stonehearth:appeal": {
          "appeal": -3

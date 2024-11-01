@@ -6,12 +6,16 @@
          ]
       }
    },
-   "core_dani:cooling": {
-      "initial_cooling": {
-         "min": 36,
-         "max": 48
-      },
-      "proper_cool_entity_alias": "ace_composting:resources:compost",
-      "proper_cooler_alias": "ace_composting:shepherd:composting_bin"
+   "core_dani:passive_transform": {
+      "type": "compostable",
+      "processes": {
+         "composting": {
+            "result": "ace_composting:resources:compost",
+            "progress_required": {
+               "min": 36,
+               "max": 48
+            }
+         }
+      }
    }
 }

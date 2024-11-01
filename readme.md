@@ -1,6 +1,6 @@
 # [ACE Mod] Composting
 ### by Daniel Angione
-v1.5 for Stonehearth ACE 0.9.6.14+
+v1.6 for Stonehearth ACE 0.9.6.18+
 https://stonehearth.net/ 
 
 ## DESCRIPTION
@@ -44,6 +44,14 @@ Translators: ghostcrap (JP)
 This mod and all its contents are under a GNU GPL 3.0 license and may be used, shared, remixed and anything else as long as credit is given, linked and the same license is used! More info: https://www.gnu.org/licenses/gpl-3.0.en.html
 
 ## CHANGELOG
+
+### October 31st, 2024 - v1.6
+- The mod has been updated to utilize the new Dani's Core Mod "Passive Transform" component instead of the old cooling service.
+- When transforming, the Composting Bin and the Manure Drying Rack will now reduce the quality of the item by 1.
+- Added support for ACE's humanoid bones.
+- Added support for ACE's rotten mutton.
+- Added support for ACE's different rotten basket entities and preserves.
+- Added support for Trapper+ new rotten meat and rotten small meat.
 
 ### December 28th, 2023 - v1.5
 - All the Composting stuff has been moved to the Shepherd, who is now responsible for doing fertilizers after the ACE 0.9.6.14 Update.
